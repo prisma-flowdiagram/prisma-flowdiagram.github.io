@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <title>PRISMA2020 - Interactive Demo (Ambulance clinicians' identification and management of male victims of intimate partner violence)</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-lg-2 order-sm-last order-first">
+				<img class="img-fluid" src="data/S3_Primary_logo_RGB.jpg" />
+			</div>
+			<div class="col-md-8 col-lg-10">
+<h1>PRISMA2020 Interactive Demo - New Studies</h1>
+	<h2>Ambulance clinicians' identification and management of male victims of intimate partner violence</h2>
+			</div>
+		</div>
+	</div>
+	<div class="accordion" id="reviewAccordion">
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="about-header">
+				<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#about-body" aria-expanded="true" aria-controls="about-body">
+					Search Stratgy
+				</button>
+			</h2>
+			<div id="about-body" class="accordion-collapse collapse show" aria-labelledby="about-header" data-bs-parent="#reviewAccordion">
+				<div class="accordion-body">
+					<p>Searches of: EMBASE, MEDLINE, CINAHL, PsycINFO, PsycArticles, Scopus, and Web of Science databases has occured to retrieve articles published since 1990 in english or mandarin.</p>
+					<p>The search strategy has been designed to include terms relating to IPV and Domestic Violence occuring alongside terms relating to ambulance clinicians.</p>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="psycinfo-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#psycinfo-body" aria-expanded="false" aria-controls="psycinfo-body">
+					PsycINFO via ProQuest
+				</button>
+			</h2>
+			<div id="psycinfo-body" class="accordion-collapse collapse" aria-labelledby="psycinfo-header" data-bs-parent="#reviewAccordion">
+				<div class="accordion-body">
+					(Limited to 1990-Current and English (no option to limit to Mandarin or Chinese)) searched 9/6/2021
+					<ol>
+						<li>MAINSUBJECT.EXPLODE("Domestic Violence") OR MAINSUBJECT.EXPLODE("Abuse Reporting") OR MAINSUBJECT.EXPLODE("Dating Violence") OR MAINSUBJECT.EXPLODE("Intimate Partner Violence")</li>
+						<li>MAINSUBJECT.EXPLODE(Battered Females)</li>
+						<li>("Intimate" OR "domestic" OR "spous*" OR "mari*" OR "dating" OR date* OR "partner*" or "husband*" or "wife" or "wives" or "girlfriend*" or "boyfriend*" or "famil*") NEAR/2 (("abus*" OR "batter*" OR "violen*" OR "coerc*" OR "assault*" OR "harm*" OR "trauma*" OR hurt* OR control*) OR ("sex* assault" OR "sex* coerc*" OR "sex* abuse" OR "rape*" OR "sex* offenc*" OR "penetrat*"))</li>
+						<li>IPV OR ("intimate terrorism") OR "coercive control*" OR TI,AB((batter*))</li>
+						<li>(report* OR alert* OR confess* OR confid*) NEAR/2 (("abus*" OR "batter*" OR "violen*"OR "coerc*" OR "assault*" OR "harm*" OR "trauma*" OR hurt* OR control*) OR ("sex* assault" OR "sex* coerc*" OR "sex* abuse" OR "rape* " OR "sex* offenc*" OR "penetrat*"))</li>
+						<li>S1 OR S2 OR S3 OR S4 OR S5</li>
+						<li>MAINSUBJECT.EXPLODE("Emergency Personnel") OR MAINSUBJECT.EXPLODE("Emergency Services")</li>
+						<li>“paramedic*” OR “EMT*” OR “EMS” OR firstrespon* OR "first respon*" OR “ambulance*”</li>
+						<li>("emergency medic*" NEAR/2 (technician* or service*))</li>
+						<li>(“pre-hospital” OR (“hospital” NEAR/2 (“pre*” OR “out of”)))</li>
+						<li>S7 OR S8 OR S9 OR S10</li>
+						<li>S6 AND S11</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="medline-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#medline-body" aria-expanded="false" aria-controls="medline-body">
+					Medline via OVID
+				</button>
+			</h2>
+			<div id="medline-body" class="accordion-collapse collapse" aria-labelledby="medline-header" data-bs-parent="#reviewAccordion">
+				<div class="accordion-body">
+					searched 9/6/2021 - Ovid MEDLINE (R) ALL 1946 to June 8, 2021
+					<ol>
+						<li>domestic violence/ or spouse abuse/ or gender-based violence/ or exp intimate partner violence/ or Mandatory Reporting/ or Battered Women/</li>
+						<li>(Intimate OR domestic OR spous* OR mari* OR dating OR date* OR partner* or husband* or wife or wives or girlfriend* or boyfriend* or famil*) adj3 ((abus* OR batter* OR violen* OR coerc* OR assault* OR harm* OR trauma* OR hurt* OR control*) OR ("sex* assault" OR "sex* coerc*" OR "sex* abuse" OR "rape*" OR "sex* offenc*" OR "penetrat*"))</li>
+						<li>IPV OR ("intimate terrorism") OR "Coercive Control*"</li>
+						<li>Batter*</li>
+						<li>(report* OR alert* OR confess* OR confid*) adj3 ((abus* OR batter* OR violen* OR coerc* OR assault* OR harm* OR trauma* OR hurt* OR control*) OR ("sex* assault" OR "sex* coerc*" OR "sex* abuse" OR rape* OR "sex* offenc*" OR penetrat*))</li>
+						<li>1 or 2 or 3 or 4 or 5</li>
+						<li>exp Emergency Medical Services/ or Emergency Medical Technicians/ or Ambulances/</li>
+						<li>paramedic* OR EMT* OR EMS OR firstrespon* OR "first respon*" OR ambulance*</li>
+						<li>("emergency medic*" adj3 (technician* or service*))</li>
+						<li>("pre-hospital" OR (hospital adj3 (pre* OR "out of")))</li>
+						<li>7 or 8 or 9 or 10</li>
+						<li>6 and 11</li>
+						<li>Limit 12 to (yr="1990 -Current" and (chinese or english)</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="embase-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#embase-body" aria-expanded="false" aria-controls="embase-body">
+					Embase via Ovid 
+				</button>
+			</h2>
+			<div id="embase-body" class="accordion-collapse collapse" aria-labelledby="embase-header" data-bs-parent="#reviewAccordion">
+				<div class="accordion-body">
+					Searched 9/6/2021
+					Database: Embase (1974 to 2021 June 08)
+					<ol>
+						<li>exp *domestic violence/</li>
+						<li>exp *partner violence/</li>
+						<li>exp *gender based violence/</li>
+						<li>exp *battered woman/</li>
+						<li>((Intimate or domestic or spous* or Mari* or Dating or Date* or partner* or husband* or wife or wives or girlfriend* or boyfriend* or famil*) adj3 (abus* or batter* or violen* or coerc* or assault* or harm* or trauma* or hurt* or control* or ("sex* assault" or "sex* coerc*" or "sex* abuse" or "rape*" or "sex* offenc*" or "penetrat*"))).ti,ab.</li>
+						<li>(IPV or "intimate terrorism" or "Coercive Control*").ti,ab.</li>
+						<li>Batter*.ti,ab.</li>
+						<li>((report* or alert* or confess* or confid*) adj3 (abus* or batter* or violen* or coerc* or assault* or harm* or trauma* or hurt* or control* or ("sex* assault" or "sex* coerc*" or "sex* abuse" or rape* or "sex* offenc*" or penetrat*))).ti,ab.</li>
+						<li>or/1-8</li>
+						<li>exp *rescue personnel/ or exp *paramedical personnel/</li>
+						<li>exp *emergency health service/</li>
+						<li>exp *ambulance/</li>
+						<li>(Paramedic* or EMT* or EMS or firstrespon* or "first respon*" or Ambulance*).ti,ab.</li>
+						<li>("emergency medic*" adj3 (technician* or service*)).ti,ab.</li>
+						<li>("pre-hospital" or (hospital adj3 (pre* or "out of"))).ti,ab.</li>
+						<li>or/10-15</li>
+						<li>9 and 16</li>
+						<li>limit 17 to yr="1990 -Current"</li>
+						<li>limit 18 to (chinese or english)</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="cinahl-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cinahl-body" aria-expanded="false" aria-controls="cinahl-body">
+					CINAHL via EBSCOhost
+				</button>
+			</h2>
+			<div id="cinahl-body" class="accordion-collapse collapse" aria-labelledby="cinahl-header" data-bs-parent="#reviewAccordion">
+				<div class="cinahl-body">
+					searched 10/6/2021
+					<ol>
+						<li>(MH "Domestic Violence+") OR (MH "Intimate Partner Violence") OR (MH "Gender-Based Violence") OR (MH "Dating Violence") OR (MH "Mandatory Reporting") OR (MH "Battered Women") OR (MH "Battered Men")</li>
+						<li>TI(((Intimate or domestic or spous* or Mari* or Dating or Date* or partner* or husband* or wife or wives or girlfriend* or boyfriend* or famil*) n3 (abus* or batter* or violen* or coerc* or assault* or harm* or trauma* or hurt* or control* or ("sex* assault" or "sex* coerc*" or "sex* abuse" or "rape*" or "sex* offenc*" or "penetrat*")))) or AB (((Intimate or domestic or spous* or Mari* or Dating or Date* or partner* or husband* or wife or wives or girlfriend* or boyfriend* or famil*) n3 (abus* or batter* or violen* or coerc* or assault* or harm* or trauma* or hurt* or control* or ("sex* assault" or "sex* coerc*" or "sex* abuse" or "rape*" or "sex* offenc*" or "penetrat*"))))</li>
+						<li>TI(IPV or "intimate terrorism" or "Coercive Control*") or AB (IPV or "intimate terrorism" or "Coercive Control*")</li>
+						<li>TI(batter*) or AB (batter*)</li>
+						<li>TI((report* or alert* or confess* or confid*) n3 (abus* or batter* or violen* or coerc* or assault* or harm* or trauma* or hurt* or control* or ("sex* assault" or "sex* coerc*" or "sex* abuse" or rape* or "sex* offenc*" or penetrat*))) OR AB ((report* or alert* or confess* or confid*) n3 (abus* or batter* or violen* or coerc* or assault* or harm* or trauma* or hurt* or control* or ("sex* assault" or "sex* coerc*" or "sex* abuse" or rape* or "sex* offenc*" or penetrat*)))</li>
+						<li>S1 OR S2 OR S3 OR S4 OR S5</li>
+						<li>(MH "Emergency Medical Technicians") OR (MH "Education, Emergency Medical Services") OR (MH "Prehospital Care")</li>
+						<li>(MH "Ambulances")</li>
+						<li>TI( (Paramedic* or EMT* or EMS or firstrespon* or “first respon*” or Ambulance*) ) OR ( ("emergency medic*" n3 (technician* or service*)) ) OR ( ("pre-hospital" or (hospital n3 (pre* or "out of"))) ) or AB ( (Paramedic* or EMT* or EMS or firstrespon* or “first respon*” or Ambulance*) ) OR ( ("emergency medic*" n3 (technician* or service*)) ) OR ( ("pre-hospital" or (hospital n3 (pre* or "out of"))) )</li>
+						<li>S7 OR S8 OR S9</li>
+						<li>S6 AND S10</li>
+						<li>S6 AND S10 Limiters - Published Date: 19900101-20211231; Language: Chinese, English</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="psycarticles-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#psycarticles-body" aria-expanded="false" aria-controls="psycarticles-body">
+					PsycArticles via Proquest
+				</button>
+			</h2>
+			<div id="psycarticles-body" class="accordion-collapse collapse" aria-labelledby="psycarticles-header" data-bs-parent="#reviewAccordion">
+				<div class="psycarticles-body">
+					(limited to 1990-, all results in English) Searched 9/6/2021
+					<ol>
+						<li>MAINSUBJECT.EXPLODE("Domestic Violence") OR MAINSUBJECT.EXPLODE("Abuse Reporting") OR MAINSUBJECT.EXPLODE("Dating Violence") OR MAINSUBJECT.EXPLODE("Intimate Partner Violence")</li>
+						<li>MAINSUBJECT.EXPLODE(Battered Females)</li>
+						<li>("Intimate" OR "domestic" OR "spous*" OR "mari*" OR "dating" OR date* OR "partner*" or "husband*" or "wife" or "wives" or "girlfriend*" or "boyfriend*" or "famil*")NEAR/2(("abus*" OR "batter*" OR "violen*" OR "coerc*" OR "assault*" OR "harm*" OR "trauma*" OR hurt* OR control*) OR ("sex* assault" OR "sex* coerc*" OR "sex* abuse" OR "rape*" OR "sex* offenc*" OR "penetrat*"))</li>
+						<li>IPV OR ("intimate terrorism") OR "coercive control*" OR batter*</li>
+						<li>(report* OR alert* OR confess* OR confid*) NEAR/2 (("abus*" OR "batter*" OR "violen*"OR "coerc*" OR "assault*" OR "harm*" OR "trauma*" OR hurt* OR control*) OR ("sex* assault" OR "sex* coerc*" OR "sex* abuse" OR "rape* " OR "sex* offenc*" OR "penetrat*"))</li>
+						<li>S1 OR S2 OR S3 OR S4 OR S5</li>
+						<li>MAINSUBJECT.EXPLODE("Emergency Personnel") OR MAINSUBJECT.EXPLODE("Emergency Services")</li>
+						<li>“paramedic*” OR “EMT*” OR “EMS” OR (firstrespon* OR "first respon*") OR “ambulance*”</li>
+						<li>("emergency medic*" NEAR/2 (technician* or service*))</li>
+						<li>(“pre-hospital” OR (“hospital” NEAR/2 (“pre*” OR “out of”)))</li>
+						<li>S7 OR S8 OR S9 OR S10</li>
+						<li>S6 AND S11</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="scopus-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#scopus-body" aria-expanded="false" aria-controls="scopus-body">
+					Scopus
+				</button>
+			</h2>
+			<div id="scopus-body" class="accordion-collapse collapse" aria-labelledby="scopus-header" data-bs-parent="#reviewAccordion">
+				<div class="scopus-body">
+					Searched 09/06/2021
+					<br />
+					( TITLE-ABS-KEY ( ( intimate  OR  domestic  OR  spous*  OR  mari*  OR  dating  OR  date*  OR  partner*  OR  husband*  OR  wife  OR  wives  OR  girlfriend*  OR  boyfriend*  OR  famil* )  W/3  ( abus*  OR  batter*  OR  violen*  OR  coerc*  OR  assault*  OR  harm*  OR  trauma*  OR  hurt*  OR  control*  OR  "sex* assault"  OR  "sex* coerc*"  OR  "sex* abuse"  OR  "rape*"  OR  "sex* offenc*"  OR  "penetrat*" ) )  OR  TITLE-ABS-KEY ( ipv  OR  "intimate terrorism"  OR  "Coercive Control*"  OR  batter* )  OR  TITLE-ABS-KEY ( ( report*  OR  alert*  OR  confess*  OR  confid* )  W/3  ( abus*  OR  batter*  OR  violen*  OR  coerc*  OR  assault*  OR  harm*  OR  trauma*  OR  hurt*  OR  control*  OR  "sex* assault"  OR  "sex* coerc*"  OR  "sex* abuse"  OR  rape*  OR  "sex* offenc*"  OR  penetrat* ) ) )  AND  TITLE-ABS-KEY ( paramedic*  OR  emt*  OR  ems  OR  firstrespon*  OR  "first respon*"  OR  ambulance*  OR  ( "emergency medic*"  W/3  ( technician*  OR  service* ) )  OR  "pre-hospital"  OR  ( hospital  W/3  ( pre*  OR  "out of" ) ) )  AND  ( LIMIT-TO ( PUBYEAR ,  2021 )  OR  LIMIT-TO ( PUBYEAR ,  2020 )  OR  LIMIT-TO ( PUBYEAR ,  2019 )  OR  LIMIT-TO ( PUBYEAR ,  2018 )  OR  LIMIT-TO ( PUBYEAR ,  2017 )  OR  LIMIT-TO ( PUBYEAR ,  2016 )  OR  LIMIT-TO ( PUBYEAR ,  2015 )  OR  LIMIT-TO ( PUBYEAR ,  2014 )  OR  LIMIT-TO ( PUBYEAR ,  2013 )  OR  LIMIT-TO ( PUBYEAR ,  2012 )  OR  LIMIT-TO ( PUBYEAR ,  2011 )  OR  LIMIT-TO ( PUBYEAR ,  2010 )  OR  LIMIT-TO ( PUBYEAR ,  2009 )  OR  LIMIT-TO ( PUBYEAR ,  2008 )  OR  LIMIT-TO ( PUBYEAR ,  2007 )  OR  LIMIT-TO ( PUBYEAR ,  2006 )  OR  LIMIT-TO ( PUBYEAR ,  2005 )  OR  LIMIT-TO ( PUBYEAR ,  2004 )  OR  LIMIT-TO ( PUBYEAR ,  2003 )  OR  LIMIT-TO ( PUBYEAR ,  2002 )  OR  LIMIT-TO ( PUBYEAR ,  2001 )  OR  LIMIT-TO ( PUBYEAR ,  2000 )  OR  LIMIT-TO ( PUBYEAR ,  1999 )  OR  LIMIT-TO ( PUBYEAR ,  1998 )  OR  LIMIT-TO ( PUBYEAR ,  1997 )  OR  LIMIT-TO ( PUBYEAR ,  1996 )  OR  LIMIT-TO ( PUBYEAR ,  1995 )  OR  LIMIT-TO ( PUBYEAR ,  1994 )  OR  LIMIT-TO ( PUBYEAR ,  1993 )  OR  LIMIT-TO ( PUBYEAR ,  1992 )  OR  LIMIT-TO ( PUBYEAR ,  1991 )  OR  LIMIT-TO ( PUBYEAR ,  1990 ) )  AND  ( LIMIT-TO ( LANGUAGE ,  "English" )  OR  LIMIT-TO ( LANGUAGE ,  "Chinese" ) ) 
+				</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="wos-header">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wos-body" aria-expanded="false" aria-controls="wos-body">
+					Web of Science – Core Collection
+				</button>
+			</h2>
+			<div id="wos-body" class="accordion-collapse collapse" aria-labelledby="wos-header" data-bs-parent="#reviewAccordion">
+				<div class="wos-body">
+					(Indexes=SCI-EXPANDED, SSCI, A&HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC) searched 9/6/2021
+					<br />
+					(TS=(( ( ( intimate  OR  domestic  OR  spous*  OR  mari*  OR  dating  OR  date*  OR  partner*  OR  husband*  OR  wife  OR  wives  OR  girlfriend*  OR  boyfriend*  OR  famil* )  near/3  ( abus*  OR  batter*  OR  violen*  OR  coerc*  OR  assault*  OR  harm*  OR  trauma*  OR  hurt*  OR  control*  OR  "sex* assault"  OR  "sex* coerc*"  OR  "sex* abuse"  OR  "rape*"  OR  "sex* offenc*"  OR  "penetrat*" ) )  OR   ( ipv  OR  "intimate terrorism"  OR  "Coercive Control*"  OR  batter* )  OR  ( ( report*  OR  alert*  OR  confess*  OR  confid* )  near/3  ( abus*  OR  batter*  OR  violen*  OR  coerc*  OR  assault*  OR  harm*  OR  trauma*  OR  hurt*  OR  control*  OR  "sex* assault"  OR  "sex* coerc*"  OR  "sex* abuse"  OR  rape*  OR  "sex* offenc*"  OR  penetrat* ) ) ) ) AND TS=( paramedic*  OR  emt*  OR  ems  OR  firstrespon*  OR  "first respon*"  OR  ambulance*  OR  ( "emergency medic*"  near/3  ( technician*  OR  service* ) )  OR  "pre-hospital"  OR  ( hospital  near/3  ( pre*  OR  "out of" ) ))) AND (PY==("1991" OR "1992" OR "1993" OR "1994" OR "1995" OR "1996" OR "1997" OR "1998" OR "1999" OR "2000" OR "2001" OR "2002" OR "2003" OR "2004" OR "2005" OR "2006" OR "2007" OR "2008" OR "2009" OR "2010" OR "2011" OR "2012" OR "2014" OR "2013" OR "2015" OR "2016" OR "2017" OR "2018" OR "2019" OR "2020" OR "2021"))
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+	<script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		  return new bootstrap.Tooltip(tooltipTriggerEl)
+		})</script>
+  </body>
+</html>
